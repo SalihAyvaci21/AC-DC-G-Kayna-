@@ -1,0 +1,225 @@
+(footprint "EH24-3.0-02-1M2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "http://www.breve.pl/pdf/ANG/TEZ_ang.pdf")
+	(tags "TEZ PCB Transformer")
+	(property "Reference" "REF**"
+		(at -5 -7.5 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dad08943-44d6-4f8c-92a5-788ac31a7aa9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "EH24-3.0-02-1M2"
+		(at 9 -7.25 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80af57e5-f6bb-4c32-bae4-6b441bbcba6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ce3a663-9451-4259-bce9-b1ffe0d13e44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25377163-9fd1-47d0-80b7-e62960f02e0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4.5 -1.5)
+		(end 19.5 22.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "12a177e2-fca7-4145-a5e5-227a8e6a2897")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 15 21)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "af59d057-9232-475e-a7c3-6bd7311c8a59")
+	)
+	(fp_rect
+		(start -4.5 -1.5)
+		(end 19.5 22.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ea048338-4d80-4b73-af15-f7fe52f4feff")
+	)
+	(fp_rect
+		(start -4.5 -1.5)
+		(end 19.5 22.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7a26519e-48e9-4ac0-8f35-1517a10fa15c")
+	)
+	(fp_text user "1"
+		(at -6 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f7e5f6c3-5add-4971-892b-bf22a5bc7810")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Ref"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "52ee6702-ab8b-4aed-9613-78a79274e4c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "2"
+		(at -6.5 22.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "287eac83-78c6-4d60-bd4b-005d29ab3ebd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "3"
+		(at 20.5 22.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2b16b3fd-136e-407c-8707-3f7b67e77537")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "EH24-3.0-02-1M2"
+		(at 0 10.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "666d424b-2432-40f1-b001-259d7c709f4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "4"
+		(at 20.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ce9910d0-68e5-49cd-92fa-5fbbea6c6f29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fecbec75-6ba4-4bf4-9644-660e7dc31dd7")
+	)
+	(pad "2" thru_hole circle
+		(at 0 21)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "599c1daa-8e9f-4807-89fa-14348ab020ea")
+	)
+	(pad "3" thru_hole circle
+		(at 15 21)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e08036d9-4c73-4b1b-8ae6-f823d34dfb56")
+	)
+	(pad "4" thru_hole circle
+		(at 15 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28fbffb5-5fe7-4116-9cbd-9253b0d9d2b4")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_Breve_TEZ-22x24.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
